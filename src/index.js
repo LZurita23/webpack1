@@ -10,7 +10,13 @@ out of the box do not support node modules.
 Webpack can help us solve this problem  */
 
 import { pascalCase } from "pascal-case";
-import themessage from "./another.js";
+import themessage from "./message.js";
+
+//first install the style loader and css loader
+
+import './css/coffee.css';
+import './css/colors.css';
+import './css/main.css';
 
 const title = document.getElementById("title");
 
